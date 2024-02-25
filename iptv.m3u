@@ -40,6 +40,15 @@ https://dcbos-de-livedazn.daznedge.net/1muy8o5p97h0214znryk6nv327/web/stream.mpd
 #EXTINF:-1, ZonaDazn WEB
 https://dcf-de-livedazn.daznedge.net/dashrdm/dazn-linear-024/stream.mpd?p=web
 
+#EXTM3U
+#EXTVLCOPT:http-referrer=https://claplivehdplay.ru/
+#EXTINF:-1, Dazn A BACKUP
+https://webuit.onlinehdhls.ru/fls/cdn/calcioX/tracks-v1a1/mono.m3u8
+
+#EXTVLCOPT:http-referrer=https://calcio.pm/
+#EXTINF:-1, Dazn A Back 2
+https://hls.psz.pm/hls/serie/index.m3u8
+
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=003618ccd7be22b6367207ed8d64d505:36e97f29ec5ea6126077cc040cc2ceeb
