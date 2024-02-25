@@ -1,0 +1,202 @@
+#EXTM3U
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=82f8e2a17dac44c0a18f660479349c59:1b144f73e6fefe91cd05f850e2b589d0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=ExoPlayerLib
+#EXTINF:-1, ZonaDazn_IT
+https://dcf-de-livedazn.daznedge.net/dashrdm/dazn-linear-024/stream.mpd?p=web
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=ExoPlayerLib
+#EXTINF:-1, DaznA3_IT
+https://dcbos-de-livedazn.daznedge.net/1muy8o5p97h0214znryk6nv327/web/stream.mpd?&mta=en&outlet=dazn-italy&plang=it
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036e5d0e88dfb087f1791da6150ced9:0bc653d830837dceb13bd17169f0f8e2
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, SportCalcio_IT
+https://linear302-it-dash1-prd-ll.cdn13.skycdp.com/016a/31209/FHD/skysportseriea/master_stereo.mpd
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00368000eaecbeeafd84c05b3b8243af:8f84185910e18ae0ca8a45004625a000
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Sport251_IT
+https://linear311-it-dash1-prd-ll.cdn13.skycdp.com/016a/31917/FHD/skysport251/master.mpd
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036c4797608fc64296d437bc6f8b790:1689af84b23f514005f9bb854da7667f
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Sport252_IT
+https://linear311-it-dash1-prd-akg0.cdn13.skycdp.com/016a/32951/FHD/skysport252/master.mpd
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00365b169a077daac5081277c3fd0c28:f68ab32a552e13509a8ee1c4d96204bc
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Sport253_IT
+https://linear311-it-dash1-prd-akg0.cdn13.skycdp.com/016a/32233/FHD/skysport253/master.mpd
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00369c14c20b78aadb1ec0e3c0e74979:e768767e2c7238d8069887bb36aed7fa
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Sport254_IT
+https://linear312-it-dash1-prd-ll.cdn13.skycdp.com/016a/31234/FHD/skysport254/master.mpd
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036b781a22ebb0c20c16ac27d5d1448:f309b94acfda720bf1ed5741489f8967
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Sport255_IT
+https://linear311-it-dash1-prd-akg0.cdn13.skycdp.com/016a/32910/FHD/skysport255/master.mpd
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00366f263859fc1cc82d2c4da6a66ef6:754ae922d113c54349002cd9a88694a4
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Sport256_IT
+https://linear312-it-dash1-prd-akg0.cdn13.skycdp.com/016a/31912/FHD/skysport256/master.mpd
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036faeace9872d3ceeb8b1b63f0baa3:dbd41ee944243307d39b7b27f16615a8
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Sport257_IT
+https://linear311-it-dash1-prd-akg0.cdn13.skycdp.com/016a/31775/FHD/skysport257/master.mpd
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036fd8ccfddba47c8b40aeff63a797c:dfd5c9d0f4ac6f3a1bd89803399e7026
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Sport258_IT
+https://linear312-it-dash1-prd-ll.cdn13.skycdp.com/016a/32772/skysport258/master.mpd
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036644f7699f43e401f88d920dc385c:e5b0cebdc3edd7996d283041535fce9c
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Sport259_IT
+https://linear311-it-dash1-prd-akg0.cdn13.skycdp.com/016a/31613/skysport259/master.mpd
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00362452ed102000ccea64c311921dc2:02f27bd6caab7633d3083b94d3958b1c
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, SportUno_IT
+https://linear301-it-dash1-prd-akg0.cdn13.skycdp.com/016a/31023/FHD/skysportuno/master_stereo.mpd
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=42176706e135442ab500ee8b3a32ff31:072ea5e4b049541f4aba6f5d6bc2b3c8
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, beinES
+https://cip4-2048b75120.linear-novi.stvacdn.spectrum.com/LIVE/1147/dash/cenc/BEIN2HD_04736/manifest.mpd?ck=eyI0MjE3NjcwNmUxMzU0NDJhYjUwMGVlOGIzYTMyZmYzMSI6IjA3MmVhNWU0YjA0OTU0MWY0YWJhNmY1ZDZiYzJiM2M4In0%3D
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f81af7922a8d461aa81da4b225f8f883:d0f27c123c5f1331429d08638fa3727e
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, beinUSA
+https://cip4-2048b75120.linear-novi.stvacdn.spectrum.com/LIVE/1144/dash/cenc/BEIN1HD_04735/manifest.mpd?ck=eyJmODFhZjc5MjJhOGQ0NjFhYTgxZGE0YjIyNWY4Zjg4MyI6ImQwZjI3YzEyM2M1ZjEzMzE0MjlkMDg2MzhmYTM3MjdlIn0%3D
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=000b4856d9b1eb17e459f4ad4f480b7e:1162c56a12e96ecd7afba37a3d650201
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Bundesliga1
+https://linear205-de-dash1-prd-ak.cdn12.skycdp.com/031122-50/index_stereo.mpd
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=82f8e2a17dac44c0a18f660479349c59:1b144f73e6fefe91cd05f850e2b589d0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=ExoPlayerLib
+#EXTINF:-1, Dazn1_ES
+https://dcf-ac-live.cdn.indazn.com/dashrdm/dazn-linear-037/stream.mpd?p=web
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00364ee1c777f44a74e4df12f3095503:77dee68a39366663755beb8fa62dcc1e
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, SportArena_IT
+https://linear304-it-dash1-prd-akg0.cdn13.skycdp.com/016a/31024/FHD/skysportarena/master_stereo.mpd
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6401e1fead9d4f43910aaad360f46dd0:598f5e4f10d4e040d25579478cadc4ee
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, BBC1
+https://wp1-obc1112-live-ch-prod.prod.cdn.dmdsdp.com/dash/SV09091/manifest.mpd?ck=eyI2NDAxZTFmZWFkOWQ0ZjQzOTEwYWFhZDM2MGY0NmRkMCI6IjU5OGY1ZTRmMTBkNGUwNDBkMjU1Nzk0NzhjYWRjNGVlIn0%3D
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=000b0e25c61df5358bd1c4f3f5ab90d2:bd346e7500fc3fbb0f1a8fd54c5b9f79
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Bundesliga2
+https://linear204-de-dash1-prd-ak.cdn12.skycdp.com/031123-50/index_stereo.mpd
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=000b37f8448ff52016fec4c763aa1c00:9d30e9752ed5c8526ad987a694770ab2
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Bundesliga3
+https://linear205-de-dash1-prd-ak.cdn12.skycdp.com/031124-50/index_stereo.mpd
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=000b8ab3d246926c25554e10d15b6691:5553b410465cff5f6f80aa1b29c6abc5
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Bundesliga4
+https://linear204-de-dash1-prd-ak.cdn12.skycdp.com/031125-50/index_stereo.mpd
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=000b3fe18b954d5b69fd1cb5cec9f3ee:bf63141dd9dd1f3fce732f1c81f8028f
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Bundesliga5
+https://linear205-de-dash1-prd-ak.cdn12.skycdp.com/032126-50/index_stereo.mpd
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d27104d427e4f87e75b19395a9f8796:723593c70e2d4c4862754398e80168f8
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Dazn4_ES
+https://ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/up7qpwch9b/out/v1/a6d5d1a1287b4893b859c2d6ccf2c65d/cenc.mpd
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=ExoPlayerLib
+#EXTINF:-1, DaznA_IT
+https://dcbos-de-livedazn.daznedge.net/nv3llygp8bvv1a3xcn8abcjzp/web/stream.mpd?&mta=en&outlet=dazn-italy&plang=it
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6b9488608bc140e18357fea24cddc915:51104d85a1bfd7ff3072135376de3f54
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, NBC
+https://linear.stvacdn.spectrum.com/LIVE/1105/dash/cenc/WKTVDT_12764/manifest.mpd?ck=eyI2Yjk0ODg2MDhiYzE0MGUxODM1N2ZlYTI0Y2RkYzkxNSI6IjUxMTA0ZDg1YTFiZmQ3ZmYzMDcyMTM1Mzc2ZGUzZjU0In0%3D
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00360f4f90045f029a53a022738c2422:fa39fd500dc4e291801a710499634330
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, SportTennis_IT
+https://linear310-it-dash1-prd.selector.skycdn.it/016a/32559/FHD/skysporttennis/master.mpd
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=882c9f5613b43b47adc70aa968a308ce:de534ef8914bfe62ba3cdd6bdb9e1c04
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, USA
+https://fsly.stream.peacocktv.com/Content/CMAF_OL1-CTR-4s/Live/channel(usa-east)/master.mpd
+
