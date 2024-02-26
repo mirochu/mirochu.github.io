@@ -5,7 +5,7 @@
 #KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=ExoPlayerLib
-#EXTINF:-1, Dazn A1
+#EXTINF:-1, Dazn A1 NON FUZIONANTE
 https://dca-ac-live.cdn.indazn.com/1y2e5pp3vb9na1el28vopbw1ki/web/stream.mpd?&mta=en&outlet=dazn-italy&plang=it
 
 #KODIPROP:inputstream=inputstream.adaptive
@@ -13,7 +13,7 @@ https://dca-ac-live.cdn.indazn.com/1y2e5pp3vb9na1el28vopbw1ki/web/stream.mpd?&mt
 #KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=ExoPlayerLib
-#EXTINF:-1, Dazn A2
+#EXTINF:-1, Dazn A2 NON FUZIONANTE
 https://dcbos-de-livedazn.daznedge.net/1v40d3wpoi2fo1ryqmbm8c01lb/web/stream.mpd?&mta=en&outlet=dazn-italy&plang=it
 
 #KODIPROP:inputstream=inputstream.adaptive
@@ -21,7 +21,7 @@ https://dcbos-de-livedazn.daznedge.net/1v40d3wpoi2fo1ryqmbm8c01lb/web/stream.mpd
 #KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=ExoPlayerLib
-#EXTINF:-1, Dazn A3
+#EXTINF:-1, Dazn A3 NON FUZIONANTE
 https://dcb-deit-livedazn.daznedge.net/1qr2hn99hixrg1l8ccmiwpjiju/web/stream.mpd?&mta=en&outlet=dazn-italy&plang=it
 
 #KODIPROP:inputstream=inputstream.adaptive
@@ -29,7 +29,7 @@ https://dcb-deit-livedazn.daznedge.net/1qr2hn99hixrg1l8ccmiwpjiju/web/stream.mpd
 #KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=ExoPlayerLib
-#EXTINF:-1, Dazn A4
+#EXTINF:-1, Dazn A4 NON FUZIONANTE
 https://dcbos-de-livedazn.daznedge.net/1muy8o5p97h0214znryk6nv327/web/stream.mpd?&mta=en&outlet=dazn-italy&plang=it
 
 #KODIPROP:inputstream=inputstream.adaptive
@@ -40,14 +40,14 @@ https://dcbos-de-livedazn.daznedge.net/1muy8o5p97h0214znryk6nv327/web/stream.mpd
 #EXTINF:-1, ZonaDazn WEB
 https://dcf-de-livedazn.daznedge.net/dashrdm/dazn-linear-024/stream.mpd?p=web
 
+#EXTVLCOPT:http-referrer=https://calcio.pm/
+#EXTINF:-1, DAZN A BACKUP
+https://hls.psz.pm/hls/serie/index.m3u8
+
 #EXTM3U
 #EXTVLCOPT:http-referrer=https://claplivehdplay.ru/
-#EXTINF:-1, Dazn A BACKUP
-https://webuit.onlinehdhls.ru/fls/cdn/calcioX/tracks-v1a1/mono.m3u8
-
-#EXTVLCOPT:http-referrer=https://calcio.pm/
-#EXTINF:-1, Dazn A Back 2
-https://hls.psz.pm/hls/serie/index.m3u8
+#EXTINF:-1, Dazn A Back 2 
+https://webuit.onlinehdhls.ru/fls/cdn/calcioX/index.m3u8
 
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -189,3 +189,77 @@ https://linear312-it-dash1-prd.selector.skycdn.it/016a/31150/FHD/eurosport2/mast
 #EXTINF:-1, Rai Sport HD
 https://wp2-obc0506-live-ch-prod.prod.cdn.dmdsdp.com/dash/SV09106/manifest.mpd
 
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036a75f2902fa90a1e97c2e01d9f012:729f1fda62d44e22b909a3426f042c1b
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=ExoPlayerLib
+#EXTINF:-1, Sky Uno
+https://linear313-it-dash1-prd.selector.skycdn.it/016a/32477/FHD/skyuno/master_dolby.mpd
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00360eb36a69d411ebf17322afc2bc42:27321b55522564f713ae6fc17fb6e7e7
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Sky crime
+https://linear315-it-dash1-prd.selector.skycdn.it/016a/32249/FHD/skycrime/master_stereo.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00364d417e7aab8e6a92c963f2d24549:a875a90e31b98eab8430e894ee5a853e
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, MTV
+https://linear315-it-dash1-prd.selector.skycdn.it/016a/32763/FHD/mtvnext/master_stereo.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00366085f6118d07db0355d7055587ba:8070ca90959b01fc5308dda7e067a5f4
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Sky Atlantic
+https://linear315-it-dash1-prd.selector.skycdn.it/016a/31226/FHD/skyatlantic/master_stereo.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036cd8cb23e5b00d9166fb8a0d3ffdb:61f79bfc7c6ada56a56fe8f8cf9c83bf
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Sky Cinema Collection
+https://linear315-it-dash1-prd.selector.skycdn.it/016a/31204/FHD/cinemacollection/master_stereo.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036f3ec4ac7d836b5bf9fa79f3041b6:c02271563d97b1e7e755484279f2b55c
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Sky Cinema Comedy
+https://linear301-it-dash1-prd.selector.skycdn.it/016a/32030/FHD/cinemacomedy/master_stereo.mpd
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=003660962dd06752d38e81eb9041679a:6e96bac4a92170941abb54eff6113442
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Sky Cinema Drama
+https://linear301-it-dash1-prd.selector.skycdn.it/016a/31769/FHD/cinemadrama/master_stereo.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036f7214552ee5006e2879d029e3b16:3b606878d4d3ec0b3eab10d2c0be3404
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Sky Cinema Due
+https://linear301-it-dash1-prd.selector.skycdn.it/016a/32564/FHD/cinemadue/master_stereo.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036c25f3464354fcb3832d2e5f11f67:adbb5a5af5ada23c9ade7df078c404f5
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Sky Cinema Family
+https://linear301-it-dash1-prd.selector.skycdn.it/016a/31255/FHD/cinemafamily/master_stereo.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036d4dbcac875a30838bcb8d632878b:035f084643498a2f969488dccd2e8f68
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Sky Cinema Romance
+https://linear301-it-dash1-prd.selector.skycdn.it/016a/32231/FHD/cinemaromance/master_stereo.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=003622ffdc876564765360b5441eb9e3:b3a089bd6fecbed72228195fcc7c7520
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Sky Cinema Suspense
+https://linear301-it-dash1-prd.selector.skycdn.it/016a/32047/FHD/cinemasuspense/master_stereo.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036718088af0c90cd9fba4316b5cdfc:d661bbb35caca7e34e23bc49c6c6c1cc
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Sky Cinema Uno
+https://linear301-it-dash1-prd.selector.skycdn.it/016a/32202/FHD/cinemauno/master_stereo.mpd
