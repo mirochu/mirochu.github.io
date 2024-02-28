@@ -6,7 +6,7 @@
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=ExoPlayerLib
 #EXTINF:-1, Dazn A1 NON FUZIONANTE
-https://dca-ac-live.cdn.indazn.com/1y2e5pp3vb9na1el28vopbw1ki/web/stream.mpd?&mta=en&outlet=dazn-italy&plang=it
+https://dcbos-de-livedazn.daznedge.net/1027m3qj4leeg1lzynnct5n5k9/web/stream.mpd?&mta=en&outlet=dazn-italy&plang=it
 
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
