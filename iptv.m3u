@@ -38,7 +38,7 @@ https://dcbos-de-livedazn.daznedge.net/1muy8o5p97h0214znryk6nv327/web/stream.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=ExoPlayerLib
 #EXTINF:-1, ZonaDazn WEB
-https://dcf-de-livedazn.daznedge.net/dashrdm/dazn-linear-024/stream.mpd?p=web
+https://dcf-ac-live.cdn.indazn.com/dashdrm/dazn-linear-024/stream.mpd?p=web
 
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
