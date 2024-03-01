@@ -6,7 +6,7 @@
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=ExoPlayerLib
 #EXTINF:-1, Dazn A1
-https://dcbos-de-livedazn.daznedge.net/1027m3qj4leeg1lzynnct5n5k9/web/stream.mpd?&mta=en&outlet=dazn-italy&plang=it
+https://dca-deit-livedazn.daznedge.net/16ir237v3vzxn176aya04jiqkf/web/stream.mpd?&mta=en&outlet=dazn-italy&plang=it
 
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -45,10 +45,8 @@ https://dcf-ac-live.cdn.indazn.com/dashdrm/dazn-linear-024/stream.mpd?p=web
 #KODIPROP:inputstream.adaptive.license_key={"6d3b3c741ba34dcaa1a4c13f644797f1":"5291a8de88aade07c19bc515ea93c3c7","02f3babe6e814e399ce5f66a2fa9eaf5":"4ed8c640ecb709df5ed136e016695e45"}
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 
-#EXTINF:-1, TringSport1_AL
+#EXTINF:-1, Tring Sport (Impostare lingua su eng per audio ITA)
 https://fe.tring.al/delta/101/out/u/sportnjeottencryption.mpd
-
-
 
 #EXTVLCOPT:http-referrer=https://calcio.pm/
 #EXTINF:-1, DAZN A BACKUP
