@@ -59,6 +59,14 @@ https://webuit.onlinehdhls.ru/fls/cdn/calcioX/index.m3u8
 
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00f9f3c0783536b8ce4a30a01a52e082:e926f7d45af4f7d154c990eae6a2d937
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Canale 5 HD
+https://live03p-seg.msf.cdn.mediaset.net/live/ch-c5/c5-dash-widevine.isml/manifest.mpd
+
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=003618ccd7be22b6367207ed8d64d505:36e97f29ec5ea6126077cc040cc2ceeb
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1, Sky Sport 24
