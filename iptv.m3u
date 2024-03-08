@@ -1,17 +1,12 @@
 #EXTM3U
 
-#EXTVLCOPT:http-referrer=https://calcio.pm/
-#EXTINF:-1, Champions League - Real Madrid vs Leipzig (Prime)
-https://hls.psz.pm/hls/serie/index.m3u8
-
-
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=ExoPlayerLib
-#EXTINF:-1, Dazn A1 NON FUNZIONANTE!
-https://dca-deit-livedazn.daznedge.net/15o0k0hsskmkz1r3mbcjw83pdm/web/stream.mpd?&mta=en&outlet=dazn-italy&plang=it
+#EXTINF:-1, Dazn A1 Napoli - Torino
+https://dca-deit-livedazn.daznedge.net/1g6gc0uzu079913pszxf3l7vua/web/stream.mpd?&mta=en&outlet=dazn-italy&plang=it
 
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
