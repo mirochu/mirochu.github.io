@@ -64,6 +64,10 @@ https://webhdrus.onlinehdhls.ru/lb/premium877/index.m3u8
 #EXTINF:-1,Test Serie A
 https://vladrums.com/hls/0013.m3u8
 
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://unanimousconsider.net/
+#EXTINF:-1,Test Serie A 2
+https://ttdpqkjsy3j7vsxp.cdnministry.net:8443/hls/b8ecnymb7etwdk.m3u8?s=z4Xaz8QAwJETR1wgwb5lRw&e=1711843163
+
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00f9f3c0783536b8ce4a30a01a52e082:e926f7d45af4f7d154c990eae6a2d937
