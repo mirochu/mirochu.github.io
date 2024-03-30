@@ -5,7 +5,7 @@
 #KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=ExoPlayerLib
-#EXTINF:-1, Dazn A1 Hellas Verona - Milan
+#EXTINF:-1, Dazn A1 NON FUNZIONANTE
 https://dca-deit-livedazn.daznedge.net/n8up75u15do41p9jfwtb4ph7s/web/stream.mpd?&mta=en&outlet=dazn-italy&plang=it
 
 #KODIPROP:inputstream=inputstream.adaptive
@@ -52,10 +52,13 @@ https://fe.tring.al/delta/101/out/u/sportnjeottencryption.mpd
 #EXTINF:-1, DAZN A BACKUP
 https://hls.psz.pm/hls/serie/index.m3u8
 
-#EXTM3U
 #EXTVLCOPT:http-referrer=https://claplivehdplay.ru/
 #EXTINF:-1, Dazn A Back 2 
 https://webuit.onlinehdhls.ru/fls/cdn/calcioX/index.m3u8
+
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+#EXTINF:-1,Test Serie A
+https://vladrums.com/hls/0013.m3u8
 
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -93,11 +96,10 @@ https://linear302-it-dash1-prd-ll.cdn13.skycdp.com/016a/31209/FHD/skysportseriea
 #EXTINF:-1, Sky Sport Tennis
 https://linear310-it-dash1-prd.selector.skycdn.it/016a/32559/FHD/skysporttennis/master.mpd
 
-#EXTM3U
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0036ae9248d939e4e1cd2198d2593a42:efc6699e1756403916b0280ea63f4c28
-#EXTINF:-1, SportMax_IT
+#EXTINF:-1, Sky Sport Max
 https://linear305-it-dash1-prd-ll.cdn13.skycdp.com/016a/31248/FHD/skysportmax/master_stereo.mpd
 
 
