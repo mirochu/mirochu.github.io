@@ -56,6 +56,10 @@ https://hls.psz.pm/hls/serie/index.m3u8
 #EXTINF:-1, Dazn A Back 2 
 https://webuit.onlinehdhls.ru/fls/cdn/calcioX/index.m3u8
 
+#KODIPROP:inputstream.adaptive.stream_headers=referer=https://claplivehdplay.ru/
+#EXTINF:-1,Dazn A Backup 3
+https://webhdrus.onlinehdhls.ru/lb/premium877/index.m3u8
+
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
 #EXTINF:-1,Test Serie A
 https://vladrums.com/hls/0013.m3u8
