@@ -252,6 +252,11 @@ https://linear315-it-dash1-prd.selector.skycdn.it/016a/31226/FHD/skyatlantic/mas
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0036cd8cb23e5b00d9166fb8a0d3ffdb:61f79bfc7c6ada56a56fe8f8cf9c83bf
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
+
+#KODIPROP:inputstream.adaptive.license_key=0036718088af0c90cd9fba4316b5cdfc:d661bbb35caca7e34e23bc49c6c6c1cc
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Sky Cinema Uno
+https://linear301-it-dash1-prd.selector.skycdn.it/016a/32202/FHD/cinemauno/master_stereo.mpd
 #EXTINF:-1, Sky Cinema Collection
 https://linear315-it-dash1-prd.selector.skycdn.it/016a/31204/FHD/cinemacollection/master_stereo.mpd
 #KODIPROP:inputstream=inputstream.adaptive
@@ -298,7 +303,3 @@ https://linear301-it-dash1-prd.selector.skycdn.it/016a/32047/FHD/cinemasuspense/
 #KODIPROP:inputstream.adaptive.license_key={"003680814e257d49ee8cc69624115358":"75ed6394c2b9fa771843c4055881b5d3"}
 #EXTINF:-1,Cartoon Network
 https://linear301-it-dash1-prd.selector.skycdn.it/016a/31258/FHD/cartoonnetwork/master_stereo.mpd
-#KODIPROP:inputstream.adaptive.license_key=0036718088af0c90cd9fba4316b5cdfc:d661bbb35caca7e34e23bc49c6c6c1cc
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1, Sky Cinema Uno
-https://linear301-it-dash1-prd.selector.skycdn.it/016a/32202/FHD/cinemauno/master_stereo.mpd
