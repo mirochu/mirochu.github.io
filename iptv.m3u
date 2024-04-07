@@ -6,7 +6,7 @@
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=ExoPlayerLib
 #EXTINF:-1, Dazn A1 
-https://dca-deit-livedazn.daznedge.net/qkpkxzau0rrs1dbdbwwmwtfzs/web/stream.mpd?&mta=en&outlet=dazn-italy&plang=it
+https://dca-deit-livedazn.daznedge.net/tmtz16o60r1g1si1pmk1cmsrq/web/stream.mpd?&mta=en&outlet=dazn-italy&plang=it
 
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -44,14 +44,14 @@ https://dcf-ac-live.cdn.indazn.com/dashdrm/dazn-linear-024/stream.mpd?p=web
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"6d3b3c741ba34dcaa1a4c13f644797f1":"5291a8de88aade07c19bc515ea93c3c7","02f3babe6e814e399ce5f66a2fa9eaf5":"4ed8c640ecb709df5ed136e016695e45"}
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:audio-track=2
+#EXTVLCOPT:audio-track=1
 #EXTINF:-1, Serie A 1 (Impostare lingua su eng per audio ITA)
 https://fe.tring.al/delta/101/out/u/sportnjeottencryption.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"1b4380183f59460798dac98951c68924":"a3e1de88662bb5bb1d3ff9abb3ea2950","1f14081cb0234b669371c3f7330ab0d2":"496937bc3766e7af406c8a90b8263a9c"}
 #EXTINF:-1, Serie A 2 (Impostare lingua su eng per audio ITA)
-#EXTVLCOPT:audio-track=2
+#EXTVLCOPT:audio-track=1
 https://fe.tring.al/delta/103/out/u/sportdyottencryption.mpd
 
 #EXTVLCOPT:http-referrer=https://calcio.pm/
