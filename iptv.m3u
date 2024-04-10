@@ -1,5 +1,10 @@
 #EXTM3U
 
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4df0880eed9da6934399859dc1cd5ba3:1d4c703fdc68221543c601b262797e2d
+#EXTINF:-1, (NEW!) Prime PSG - Barcellona
+https://otte.live.ll.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/181frm1prk/out/v1/334a2b70374d4d79a17b58c75e4ab78c/cenc.mpd
+
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
