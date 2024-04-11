@@ -1,5 +1,9 @@
 #EXTM3U
 
+#KODIPROP:inputstream.adaptive.file_type=mpd
+#EXTINF:-1,Rai 1 1080p
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
+
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4df0880eed9da6934399859dc1cd5ba3:1d4c703fdc68221543c601b262797e2d
 #EXTINF:-1, (NEW!) Prime PSG - Barcellona
