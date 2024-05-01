@@ -1,71 +1,31 @@
 #EXTM3U
 
 
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=ExoPlayerLib
-#EXTINF:-1, BIG MATCH! Milan vs Inter (DAZN CDN 1)
-https://dca-deit-livedazn.daznedge.net/wkufwb180ihu1ceis161gl2gu/web/stream.mpd?mta=en&outlet=dazn-italy&plang=en
+#EXTM3U
 
-#KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=ExoPlayerLib
-#EXTINF:-1, BIG MATCH! Milan vs Inter (DAZN CDN 2)
-https://dcblivedazn.akamaized.net/wkufwb180ihu1ceis161gl2gu/web/stream.mpd?mta=en&outlet=dazn-italy&plang=en
+#KODIPROP:inputstream.adaptive.license_key=4df0880eed9da6934399859dc1cd5ba3:1d4c703fdc68221543c601b262797e2d
+#EXTINF:-1, Borussia Dortmund vs PSG - Prime CDN 1 
+https://otte.live.ll.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/181frm1prk/out/v1/334a2b70374d4d79a17b58c75e4ab78c/cenc.mpd
 
-#KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=82f8e2a17dac44c0a18f660479349c59:1b144f73e6fefe91cd05f850e2b589d0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=ExoPlayerLib
-#EXTINF:-1, BIG MATCH! Milan vs Inter (ZONA CDN 1)
-https://dcf-ac-live.cdn.indazn.com/dashdrm/dazn-linear-024/stream.mpd?p=web
+#KODIPROP:inputstream.adaptive.license_key=8fd9b62612c0c62a0e8ed3441df203c4:650a0d8afaa4a35fc7d8c24e1452d0e0
+#EXTINF:-1, Borussia Dortmund vs PSG - Prime CDN 2
+https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/yzglzisd0z/out/v1/71deaba19d6f40b1a1686c6477e5d49a/cenc.mpd
 
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=82f8e2a17dac44c0a18f660479349c59:1b144f73e6fefe91cd05f850e2b589d0
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=ExoPlayerLib
-#EXTINF:-1, BIG MATCH! Milan vs Inter (ZONA CDN 2 NON TESTATO)
-https://dcblivedazn.akamaized.net/dashdrm/dazn-linear-024/stream.mpd?p=web
 
 #KODIPROP:inputstream.adaptive.file_type=mpd
 #EXTINF:-1,Rai 1 1080p
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4df0880eed9da6934399859dc1cd5ba3:1d4c703fdc68221543c601b262797e2d
-#EXTINF:-1, (NEW!) Prime PSG - Barcellona
-https://otte.live.ll.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/181frm1prk/out/v1/334a2b70374d4d79a17b58c75e4ab78c/cenc.mpd
-
 
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=ExoPlayerLib
-#EXTINF:-1, Dazn A2 NON FUZIONANTE
+#EXTINF:-1, Dazn A Placeholder
 https://dcbos-de-livedazn.daznedge.net/1v40d3wpoi2fo1ryqmbm8c01lb/web/stream.mpd?&mta=en&outlet=dazn-italy&plang=it
-
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=ExoPlayerLib
-#EXTINF:-1, Dazn A3 NON FUZIONANTE
-https://dcb-deit-livedazn.daznedge.net/1qr2hn99hixrg1l8ccmiwpjiju/web/stream.mpd?&mta=en&outlet=dazn-italy&plang=it
-
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=ExoPlayerLib
-#EXTINF:-1, Dazn A4 NON FUZIONANTE
-https://dcbos-de-livedazn.daznedge.net/1muy8o5p97h0214znryk6nv327/web/stream.mpd?&mta=en&outlet=dazn-italy&plang=it
 
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
