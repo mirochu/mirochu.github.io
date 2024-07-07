@@ -4,6 +4,19 @@
 #EXTINF:-1,Rai 1 1080p - EUROPEI
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
 
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036ea2e908d4cc20ef08595da9ff991:08e1ae9fa0ee4d9ec2b194c4908613ae
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Sky Sport MotoGP
+https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, Sky Sport F1
+https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
 
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -167,20 +180,6 @@ https://linear312-it-dash1-prd-ll.cdn13.skycdp.com/016a/32772/skysport258/master
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1, Sky Sport 259
 https://linear311-it-dash1-prd-akg0.cdn13.skycdp.com/016a/31613/skysport259/master.mpd
-
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0036ea2e908d4cc20ef08595da9ff991:08e1ae9fa0ee4d9ec2b194c4908613ae
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1, Sky Sport MotoGP
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
-
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0036a96b6bbbf1828488f90e6b2ca1f4:d24e6ae926e88f8303b6926271ff8155
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1, Sky Sport F1
-https://linear307-it-dash1-prd.selector.skycdn.it/016a/31478/FHD/skysportf1/master_stereo.mpd
 
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
