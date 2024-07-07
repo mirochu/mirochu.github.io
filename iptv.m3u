@@ -4,11 +4,9 @@
 #EXTINF:-1,Rai 1 1080p - EUROPEI
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
 
-#KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0036ea2e908d4cc20ef08595da9ff991:08e1ae9fa0ee4d9ec2b194c4908613ae
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1, Sky Sport MotoGP
+#KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
+#EXTINF:-1, SportMotoGP_IT
 https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
 
 #KODIPROP:inputstream=inputstream.adaptive
