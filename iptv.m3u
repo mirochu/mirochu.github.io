@@ -1,7 +1,15 @@
 #EXTM3U
 
-#KODIPROP:inputstream.adaptive.file_type=mpd
-#EXTINF:-1,Rai 1 1080p - EUROPEI
+#EXTINF:-1,AVVISO!
+https://github.com/mirochu/mirochu.github.io/raw/main/avviso.mp4
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=82f8e2a17dac44c0a18f660479349c59:1b144f73e6fefe91cd05f850e2b589d0
+#KODIPROP:inputstream.adaptive.stream_headers=user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.128 Safari/537.36 WebAppManager
+#EXTINF:-1, Norimberga vs Juventus - DAZN
+https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-024/stream.mpd?p=web
+
+#EXTINF:-1,Rai 1 1080p
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
