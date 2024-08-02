@@ -206,81 +206,107 @@ https://linear311-it-dash1-prd.selector.skycdn.it/016a/313073/FHD/eurosport/mast
 #EXTINF:-1, Eurosport 2
 https://linear312-it-dash1-prd.selector.skycdn.it/016a/31150/FHD/eurosport2/master_stereo.mpd
 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0036a75f2902fa90a1e97c2e01d9f012:729f1fda62d44e22b909a3426f042c1b
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=ExoPlayerLib
+#EXTM3U
+
 #EXTINF:-1, Sky Uno
-https://linear313-it-dash1-prd.selector.skycdn.it/016a/32477/FHD/skyuno/master_dolby.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=003610b8556000936e48061cdb4ee11a:2cd6bcc2160aa6ec048e5a5f7a0f73c8
+https://linear313-it-dash1-prd.selector.skycdn.it/016a/32477/FHD/skyuno/master.mpd
 
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=00360eb36a69d411ebf17322afc2bc42:27321b55522564f713ae6fc17fb6e7e7
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1, Sky crime
-https://linear315-it-dash1-prd.selector.skycdn.it/016a/32249/FHD/skycrime/master_stereo.mpd
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=00364d417e7aab8e6a92c963f2d24549:a875a90e31b98eab8430e894ee5a853e
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1, MTV
-https://linear315-it-dash1-prd.selector.skycdn.it/016a/32763/FHD/mtvnext/master_stereo.mpd
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=00366085f6118d07db0355d7055587ba:8070ca90959b01fc5308dda7e067a5f4
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTINF:-1, Sky Atlantic
-https://linear315-it-dash1-prd.selector.skycdn.it/016a/31226/FHD/skyatlantic/master_stereo.mpd
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0036cd8cb23e5b00d9166fb8a0d3ffdb:61f79bfc7c6ada56a56fe8f8cf9c83bf
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=0036d37875a7307fd4551bcd6e466882:a8cdc74a5d05c7a45c551af45aa5549c
+https://linear315-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31226/FHD/skyatlantic/master.mpd
 
-#KODIPROP:inputstream.adaptive.license_key=0036718088af0c90cd9fba4316b5cdfc:d661bbb35caca7e34e23bc49c6c6c1cc
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1, Sky Cinema Uno
-https://linear301-it-dash1-prd.selector.skycdn.it/016a/32202/FHD/cinemauno/master_stereo.mpd
-#EXTINF:-1, Sky Cinema Collection
-https://linear315-it-dash1-prd.selector.skycdn.it/016a/31204/FHD/cinemacollection/master_stereo.mpd
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1, Sky Serie HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=00366cd68acfb019e5d302f452c96ed7:fbb59d554722277be85b0728c13051ab
+https://linear315-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31684/FHD/skyserie/master.mpd
+
+#EXTINF:-1, Sky Investigation HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=003689703a245806508e9d332ed323ee:ef229589d2f7afa40904b6d62c852acf
+https://linear315-it-dash1-prd.selector.skycdn.it/016a/32686/FHD/skyinvestigation/master.mpd
+
+#EXTINF:-1, Crime + Inv. HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=0036de91177ccee5fdfd4929c099854f:f40263272212aacdcf7e405cfb4b4a91
+https://linear315-it-dash1-prd.selector.skycdn.it/016a/32249/FHD/skycrime/master.mpd
+
+#EXTINF:-1, History Channel
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=00362ec3497a383021f1db77c8556614:8820fb9b2afd6e1a3f4f5ab1ba4a73ad
+https://linear313-it-dash1-prd.selector.skycdn.it/016a/31513/FHD/history/master.mpd
+
+#EXTINF:-1, Sky Documentaries
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=0036de0a1c44a2c972fcf64c9b7f4302:0ade9234f6c56636ad6bb1b3560ddb31
+https://linear313-it-dash1-prd.selector.skycdn.it/016a/31697/FHD/skydocumentaries/master.mpd
+
+#EXTINF:-1, Sky Nature HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=0036dd4a767d1d1e6faa72be9b2edde3:60250673f0f5c54deac7c8f6d883c329
+https://linear313-it-dash1-prd.selector.skycdn.it/016a/32695/FHD/skynature/master.mpd
+
+#EXTINF:-1, Sky Arte
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=0036798d4dc4ce189b2f029a4b4aa06c:4f668ba0ef796d807c90613b9e2e61bf
+https://linear313-it-dash1-prd-akp2.cdn13.skycdp.com/016a/32074/FHD/skyarte/master.mpd
+
+#EXTINF:-1, Comedy Central
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
 #KODIPROP:inputstream.adaptive.license_key=0036f3ec4ac7d836b5bf9fa79f3041b6:c02271563d97b1e7e755484279f2b55c
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1, Sky Cinema Comedy
-https://linear301-it-dash1-prd.selector.skycdn.it/016a/32030/FHD/cinemacomedy/master_stereo.mpd
+https://linear309-it-dash1-prd-akp2.cdn13.skycdp.com/016a/32404/comedycentral/master.mpd
 
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=003660962dd06752d38e81eb9041679a:6e96bac4a92170941abb54eff6113442
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1, Sky Cinema Drama
-https://linear301-it-dash1-prd.selector.skycdn.it/016a/31769/FHD/cinemadrama/master_stereo.mpd
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0036f7214552ee5006e2879d029e3b16:3b606878d4d3ec0b3eab10d2c0be3404
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTINF:-1, MTV
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=00364d417e7aab8e6a92c963f2d24549:a875a90e31b98eab8430e894ee5a853e
+https://linear315-it-dash1-prd-akp2.cdn13.skycdp.com/016a/32763/FHD/mtvnext/master_sd.mpd
+
+#EXTINF:-1, Sky Cinema Uno
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=0036211ccb7bd9cfd99fb8591e67d772:a10923293396f30380ce411a3504ddc3
+https://linear314-it-dash1-prd.selector.skycdn.it/016a/32202/FHD/cinemauno/master.mpd
+
+#EXTINF:-1, Sky Cinema Comedy
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=003638a93ac06c9df7de5d8f349f56fd:45c7c2ba5a3cdfd03e90ff16e6ac15d8
+https://linear303-it-dash1-prd-akp2.cdn13.skycdp.com/016a/32030/FHD/cinemacomedy/master.mpd
+
+#EXTINF:-1, Sky Cinema Action
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=00368fc53eab9498463dadfc60e0f818:0a70fe8d3b90360035982deaa8c83a6d
+https://linear306-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31206/FHD/cinemaaction/master.mpd
+
 #EXTINF:-1, Sky Cinema Due
-https://linear301-it-dash1-prd.selector.skycdn.it/016a/32564/FHD/cinemadue/master_stereo.mpd
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0036c25f3464354fcb3832d2e5f11f67:adbb5a5af5ada23c9ade7df078c404f5
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=003629d4c6efbd39a2808a85a286b783:41c463cc4bf6da4dec7935eb01a7155e
+https://linear308-it-dash1-prd-akp2.cdn13.skycdp.com/016a/32564/FHD/cinemadue/master.mpd
+
+#EXTINF:-1, Sky Cinema Collection
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=003699aeb8e998fe0afed0c7302ce51f:4583daf5ec387c310633cdc922dd3130
+https://linear302-it-dash1-prd.selector.skycdn.it/016a/31204/FHD/cinemacollection/master.mpd
+
 #EXTINF:-1, Sky Cinema Family
-https://linear301-it-dash1-prd.selector.skycdn.it/016a/31255/FHD/cinemafamily/master_stereo.mpd
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0036d4dbcac875a30838bcb8d632878b:035f084643498a2f969488dccd2e8f68
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1, Sky Cinema Romance
-https://linear301-it-dash1-prd.selector.skycdn.it/016a/32231/FHD/cinemaromance/master_stereo.mpd
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=003622ffdc876564765360b5441eb9e3:b3a089bd6fecbed72228195fcc7c7520
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=0036012604394c43b063c4f513ee431d:2c665092aa45cbae824bf7ad4e69d767
+https://linear305-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31255/FHD/cinemafamily/master.mpd
+
 #EXTINF:-1, Sky Cinema Suspense
-https://linear301-it-dash1-prd.selector.skycdn.it/016a/32047/FHD/cinemasuspense/master_stereo.mpd
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=00365eb692a3fd6907192a4a3f0958b2:9f86ea0417e3458186f8ada1a2003fa5
+https://linear307-it-dash1-prd-akp2.cdn13.skycdp.com/016a/32047/FHD/cinemasuspense/master.mpd
+
+#EXTINF:-1, Sky Cinema Romance
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=00362d0a5efbd10ab56a3f502f2be023:61c8c429f412ea52e06d9663c48ee9b7
+https://linear301-it-dash1-prd.selector.skycdn.it/016a/32231/FHD/cinemaromance/master.mpd
+
+#EXTINF:-1, Sky Cinema Drama
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=0036a5270d8f1d1a2f573864aed26225:df0e826d2eeb78051f5dcf6f166e6056
+https://linear304-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31769/FHD/cinemadrama/master.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"003680814e257d49ee8cc69624115358":"75ed6394c2b9fa771843c4055881b5d3"}
