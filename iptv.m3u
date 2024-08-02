@@ -1,8 +1,5 @@
 #EXTM3U
 
-#EXTINF:-1,AVVISO!
-https://github.com/mirochu/mirochu.github.io/raw/main/avviso.mp4
-
 #EXTINF:-1,Rai 1 1080p
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
 
