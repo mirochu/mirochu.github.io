@@ -21,6 +21,7 @@ https://dcb-tm-livedazn.dazn.ticdn.it/1dg713cm5b7oq1g5mlqxt8qgey/web/stream.mpd?
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=aed095b6fc675851ba665dc47e92b3b6:31d7451fff971c66fb3823ca35837bde
+#KODIPROP:inputstream.adaptive.stream_headers=user-agent=Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.128 Safari/537.36 WebAppManager
 #EXTINF:-1, Dazn B3 Cosenza - Cremonese
 https://dcb-deit-livedazn.daznedge.net/o82bs40ba11q1d1v019swhosi/web/stream.mpd?&outlet=dazn-italy&plang=en
 
