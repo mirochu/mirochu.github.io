@@ -20,6 +20,11 @@ https://dcb-ak-livedazn.akamaized.net/mduojbdngy391lfr4y0pou9aw/web/stream.mpd?&
 https://dcb-tm-livedazn.dazn.ticdn.it/1dg713cm5b7oq1g5mlqxt8qgey/web/stream.mpd?&mta=en&outlet=dazn-italy&plang=it
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=aed095b6fc675851ba665dc47e92b3b6:31d7451fff971c66fb3823ca35837bde
+#EXTINF:-1, Dazn B3 Cosenza - Cremonese
+https://dcb-deit-livedazn.daznedge.net/o82bs40ba11q1d1v019swhosi/web/stream.mpd?&outlet=dazn-italy&plang=en
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0036422cf4293ae7cf1e7f7062cc29e8:37a223fcc17c087043bc837432fd25d8
 #EXTINF:-1, Sky Sport 251
 https://linear311-it-dash1-prd.selector.skycdn.it/016a/31917/FHD/skysport251/master.mpd
