@@ -1,0 +1,80 @@
+<head>
+    <meta charset="utf-8"/> 
+    <title> DAZN 1 </title>
+    <script src="https://cdn.jsdelivr.net/clappr/latest/clappr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/clappr.level-selector/latest/level-selector.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/clappr/dash-shaka-playback@latest/dist/dash-shaka-playback.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <style>
+        body {margin: 0; padding: 0; }
+    </style>
+</head>
+<body>
+    <div id="player">
+    <script type="text/javascript">
+        var player = new Clappr.Player({
+            source: 'https://dce-de-livedazn.daznedge.net/dash/dazn-linear-024/stream.mpd?p=web',
+            height: '100%',
+            width: '100%',
+            position: 'bottom-right',
+            plugins: [DashShakaPlayback, LevelSelector],
+            shakaConfiguration: {
+                drm: {
+                    clearKeys: {
+                        "8ab47741930c476780515f9a00decb0a":"7ab4b9ae5a48aa526e511a913b832769"
+                    }
+                },
+                preferredAudioLanguage: 'it-IT',
+            },
+            shakaOnBeforeLoad: function (shaka_player) {
+                // Register a request filter to modify headers
+                shaka_player.getNetworkingEngine().registerRequestFilter(function(type, request) {
+                    // Set custom headers for User-Agent and Referer
+                    request.headers['User-Agent'] = 'Dalvik/2.1.0 (Linux; U; Android 4.2.1; HUAWEI G700-U00 Build/HuaweiG700-U00)';
+                 });
+    },
+            parentId: '#player'
+        });
+        // Fullscreen toggle function
+        function toggleFullscreen() {
+            var playerContainer = document.getElementById('player');
+            if (!document.fullscreenElement) {
+                // Request fullscreen on the player container
+                playerContainer.requestFullscreen().catch(err => {
+                    console.error(`Error attempting to enable fullscreen mode: ${err.message} (${err.name})`);
+                });
+            } else {
+                // Exit fullscreen
+                document.exitFullscreen();
+            }
+        }
+         // Mute/unmute toggle function
+        function toggleMute() {
+            if (player.isMuted) {
+                player.setVolume(45);  // Unmute
+                player.isMuted = false;
+            } else {
+                player.setVolume(0);  // Mute
+                player.isMuted = true;
+            }
+        }
+        // Listen for keyboard shortcuts for fullscreen toggle
+        document.addEventListener('keydown', function(event) {
+            // Check if 'F' or 'f' key is pressed for fullscreen toggle
+            if (event.key === 'f' || event.key === 'F') {
+                toggleFullscreen();
+            }
+             // Check if 'M' or 'm' key is pressed for mute toggle
+            if (event.key === 'm' || event.key === 'M') {
+                toggleMute();
+            }
+            // Optional: You can also add ESC key to exit fullscreen
+            if (event.key === 'Escape') {
+                if (document.fullscreenElement) {
+                    document.exitFullscreen();
+                }
+            }
+        });
+    </script>
+    </div>
+</body>
