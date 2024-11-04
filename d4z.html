@@ -1,82 +1,80 @@
 <html>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.7/shaka-player.compiled.debug.min.js" integrity="sha512-P4kVWv8FgEmyMi1dklB5ngGFKcAamysT0b/4EyvooDFGyee7SpVPN+tQb+8ZRWF3L17EFv4fo646j43GWd2xXw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</head>
+  <head>
+    <!-- Shaka Player compiled library: -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.11.11/shaka-player.ui.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.11.11/controls.min.css" integrity="sha512-j374noE4/vVG6hAQA1o6n76zgfR1O1Z5yABfP2mfBuS2duEpVEF/bQmlgkTaR30MN4eGUtkvfDS2A//N3PWsQA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Your application source: -->
+    <script src="myapp.js"></script>
+  </head>
+  <body>
+    <script>
+        const manifestUri = 'https://dce-de-livedazn.daznedge.net/dash/dazn-linear-024/stream.mpd?p=web';
 
-<div>
-  <video id="video" width="1200" height="720" style="background-color:black" crossorigin="anonymous" autoplay="" controls="">
-  </video>
-</div>
-<script>
-	var app = function() {};
+        async function init() {
+            const video = document.getElementById('video');
+            const ui = video['ui'];
+            const config = {
+                addSeekBar: false
+            };
+            ui.configure(config);
+            const controls = ui.getControls();
+            const player = controls.getPlayer();
 
-	app.video = null;
-	app.player = null;
+            // Attach player and UI to the window to make it easy to access in the JS console.
+            window.player = player;
+            window.ui = ui;
 
-	app.init = function() {
-		shaka.polyfill.installAll();
+            // Listen for error events.
+            player.addEventListener('error', onPlayerErrorEvent);
+            controls.addEventListener('error', onUIErrorEvent);
+            
+            player.configure({
+                drm: {
+                    clearKeys: {
+                        '8ab47741930c476780515f9a00decb0a': '7ab4b9ae5a48aa526e511a913b832769',
+                    }
+                }
+            });
+            const networkingEngine = player.getNetworkingEngine();
+            networkingEngine.registerRequestFilter((type, request) => {
+                request.headers['User-Agent'] = 'Dalvik/2.1.0 (Linux; U; Android 4.2.1; HUAWEI G700-U00 Build/HuaweiG700-U00)';
+            });
 
-		shaka.Player.probeSupport().then(function(support) {
-			app.initPlayer();
-			app.loadStream();
-		});
-	}
+            // Try to load a manifest.
+            try {
+                await player.load(manifestUri);
+                console.log('The video has now been loaded!');
+            } catch (error) {
+                onPlayerError(error);
+            }
+        }
 
-	app.initPlayer = function() {
-		app.video = /** @type {!HTMLVideoElement} */ document.getElementById('video');
-		app.player = new shaka.Player(app.video);
+        function onPlayerErrorEvent(errorEvent) {
+            onPlayerError(errorEvent.detail);
+        }
 
-		window.player = app.player;
+        function onPlayerError(error) {
+            console.error('Error code', error.code, 'object', error);
+        }
 
-		app.player.addEventListener('error', app.onPlayerError, false);
+        function onUIErrorEvent(errorEvent) {
+            onPlayerError(errorEvent.detail);
+        }
 
-		var fields = location.search.split('?').pop();
-		fields = fields ? fields.split(';') : [];
-		var params = {};
-		for (var i = 0; i < fields.length; ++i) {
-		var kv = fields[i].split('=');
-		params[kv[0]] = kv[1];
-		}
+        function initFailed(errorEvent) {
+            console.error('Unable to load the UI library!');
+        }
 
-		if ('debug' in params && shaka.log) {
-		shaka.log.setLevel(shaka.log.Level.DEBUG);
-		}
-		if ('v' in params && shaka.log) {
-		shaka.log.setLevel(shaka.log.Level.V1);
-		}
-	};
-
-	app.loadStream = function() {
-		var mediaUrl = 'https://linear313-it-dash1-prd.selector.skycdn.it/016a/32477/FHD/skyuno/master.mpd';
-	  
-		let clearKeys = {};
-
-		clearKeys['003610b8556000936e48061cdb4ee11a'] = '2cd6bcc2160aa6ec048e5a5f7a0f73c8';
-
-		drmConfig = {
-			drm: {
-				clearKeys: clearKeys,
-			}
-		}
-		
-		app.player.configure(drmConfig);
-
-		player.load(mediaUrl).then(function() {
-			console.log('The video has now been loaded!');
-		}).catch(app.onPlayerError);
-	};
-
-	app.onPlayerError = function(event) {
-	  console.error('Player error', event);
-	}
-
-	if (document.readyState == 'complete' ||
-		document.readyState == 'interactive') {
-		app.init();
-	} else {
-	  document.addEventListener('DOMContentLoaded', app.init);
-	}
-</script>
-
-
-
-</body></html>
+        // Listen to the custom shaka-ui-loaded event, to wait until the UI is loaded.
+        document.addEventListener('shaka-ui-loaded', init);
+        // Listen to the custom shaka-ui-load-failed event.
+        document.addEventListener('shaka-ui-load-failed', initFailed);
+    </script>
+    <div data-shaka-player-container style="max-width:40em"
+    data-shaka-player-cast-receiver-id="07AEE832">
+  <!-- The data-shaka-player tag will make the UI library use this video element.
+       If no video is provided, the UI will automatically make one inside the container div. -->
+ <video autoplay data-shaka-player id="video" style="width:100%;height:100%"></video>
+    </div>
+  </body>
+</html>
