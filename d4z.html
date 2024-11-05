@@ -7,7 +7,7 @@
   </head>
   <body>
     <script>
-        const manifestUri = 'https://dce-de-livedazn.daznedge.net/dash/dazn-linear-024/stream.mpd?p=web';
+        const manifestUri = 'https://linear301-it-dash1-prd.selector.skycdn.it/016a/31023/FHD/skysportuno/master_stereo.mpd';
 
         async function init() {
             const video = document.getElementById('video');
@@ -30,15 +30,10 @@
             player.configure({
                 drm: {
                     clearKeys: {
-                        '8ab47741930c476780515f9a00decb0a': '7ab4b9ae5a48aa526e511a913b832769',
+                        '0036dc70e4d659fe5ae57b52793a1ff3': '55517f806b6be917c2bf0e9cf9acc44f',
                     }
                 }
             });
-            const networkingEngine = player.getNetworkingEngine();
-            networkingEngine.registerRequestFilter((type, request) => {
-                request.headers['User-Agent'] = 'Dalvik/2.1.0 (Linux; U; Android 4.2.1; HUAWEI G700-U00 Build/HuaweiG700-U00)';
-            });
-
             // Try to load a manifest.
             try {
                 await player.load(manifestUri);
